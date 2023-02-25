@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "MediaPipeDemo.h"
+#include "ue5mediapipeC.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, MediaPipeDemo, "MediaPipeDemo" );
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, ue5mediapipeC, "ue5mediapipeC" );

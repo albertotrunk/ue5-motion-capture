@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class MediaPipeDemoTarget : TargetRules
+public class ue5mediapipeCTarget : TargetRules
 {
-	public MediaPipeDemoTarget(TargetInfo Target) : base(Target)
+	public ue5mediapipeCTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "MediaPipeDemo" } );
+		ExtraModuleNames.AddRange( new string[] { "ue5mediapipeC" } );
 	}
 }

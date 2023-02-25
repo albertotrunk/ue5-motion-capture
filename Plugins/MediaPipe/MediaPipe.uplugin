@@ -1,15 +1,15 @@
 {
   "FileVersion": 3,
-  "Version": 1,
+  "Version": 2,
   "EngineVersion": "5.1",
-  "VersionName": "0.1",
+  "VersionName": "1.1",
   "FriendlyName": "MediaPipe",
   "Description": "Unreal MediaPipe integration",
   "CreatedBy": "wongfei",
   "CreatedByURL": "https://github.com/wongfei",
   "DocsURL": "",
   "MarketplaceURL" : "",
-  "Category": "Media",
+  "Category": "Animation",
   "CanContainContent": true,
   "Installed": true,
   "Modules": [
