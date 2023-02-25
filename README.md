@@ -1,8 +1,8 @@
-# UE4 MediaPipe plugin
+# UE5 MediaPipe plugin
 
 WARNING: this project is experimental and recommended for experienced developers only!
 
-Platforms: UE 4.27 / 5.0 (Windows ONLY, other will not be supported)
+Platforms: UE 5.1  (Windows ONLY, other will not be supported)
 
 2D features: Face, Iris, Hands, Pose, Holistic
 
@@ -18,21 +18,21 @@ Demo video: https://www.youtube.com/watch?v=_gRGjGn6FQE
 
 ### Clone wrapper
 
-`git clone -b unreal https://github.com/wongfei/mediapipe.git ue4-mediapipe-wrapper`
+`git clone -b unreal https://github.com/albertotrunk/mediapipe.git ue5-motion-capture`
 
 [Setup workspace](https://google.github.io/mediapipe/getting_started/install.html)
 
 ### Build wrapper
 
-`cd ue4-mediapipe-wrapper`
+`cd ue5-motion-capture`
 
 `bazel build -c opt --define MEDIAPIPE_DISABLE_GPU=1 --action_env PYTHON_BIN_PATH="C:\\Python39\\python.exe" mediapipe/unreal:ump_shared`
 
-See: `ue4-mediapipe-wrapper\mediapipe\unreal\scripts\build_shared.cmd`
+See: `ue5-motion-capture\mediapipe\unreal\scripts\build_shared.cmd`
 
 Copy ump_shared.dll to `ue4-mediapipe-plugin\Plugins\MediaPipe\ThirdParty\mediapipe\Binaries\Win64\`
 
-See: `ue4-mediapipe-wrapper\mediapipe\unreal\scripts\deploy.cmd`
+See: `ue5-motion-capture\mediapipe\unreal\scripts\deploy.cmd`
 
 ### Other deps
 
@@ -44,4 +44,4 @@ Copy libprotobuf.lib to `ue4-mediapipe-plugin\Plugins\MediaPipe\ThirdParty\proto
 
 `git clone -b msmf_fix_3410 https://github.com/wongfei/opencv.git`
 
-Copy opencv_world3410.dll to `ue4-mediapipe-plugin\Plugins\MediaPipe\ThirdParty\mediapipe\Binaries\Win64\`
+Copy opencv_world3410.dll to `ue5-motion-capture\Plugins\MediaPipe\ThirdParty\mediapipe\Binaries\Win64\`

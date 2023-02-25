@@ -18,13 +18,5 @@
 			"Name": "MediaPipe",
 			"Enabled": true
 		},
-		{
-			"Name": "MegascansPlugin",
-			"Enabled": false
-		},
-		{
-			"Name": "Bridge",
-			"Enabled": false
-		}
 	]
 }
